@@ -106,11 +106,11 @@ home_keyboard_pm = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="😇 𝚂𝚃𝙸𝙲𝙺𝙴𝚁 𝙿𝙰𝙲𝙺𝚂 😇",
-                url=f"https://szrosebot.ml",
+                url=f"https://t.me/groot_network",
             ),
             InlineKeyboardButton(
                 text="🤨 𝙵𝚄𝙽𝙽𝚈 𝙶𝙸𝙵𝚂 🤨",
-                url=f"https://t.me/szroseupdates",
+                url=f"https://t.me/rjbr0",
             )
         ],
     ]
