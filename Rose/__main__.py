@@ -303,7 +303,7 @@ async def help_button(client, query, _):
                 "Here is the help for", HELPABLE[module].__MODULE__
             )
             + HELPABLE[module].__HELP__
-            + "\n😇 𝙾𝚆𝙽𝙴𝚁 : @MyNameIsGROOT"
+            + "\n😇 𝙾𝚆𝙽𝙴𝚁 :: [𝙸𝙰𝙼 𝙶𝚁𝙾𝙾𝚃 🌱](https://t.me/mynameisgroot)"
         )
         if hasattr(HELPABLE[module], "__helpbtns__"):
                        button = (HELPABLE[module].__helpbtns__) + [[InlineKeyboardButton("« Back", callback_data="bot_commands")]]
