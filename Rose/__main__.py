@@ -165,7 +165,7 @@ async def start(client, message: Message, _):
     else:
         await message.reply(f"""
 🐷 𝙷𝚎𝚢 𝚃𝚑𝚎𝚛𝚎 {message.from_user.mention}, 
-\n\n𝙼𝚢 𝙽𝚊𝚖𝚎 𝙸𝚜 {BOT_USERNAME} 𝙸𝚊𝚖 𝙰𝚍𝚟𝚊𝚗𝚌𝚎𝚍 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖 𝙶𝚛𝚘𝚞𝚙 𝙼𝚊𝚗𝚊𝚐𝚎𝚖𝚎𝚗𝚝 𝙱𝚘𝚝 𝙵𝚘𝚛 𝙷𝚎𝚕𝚙. \n𝚈𝚘𝚞 𝙿𝚛𝚘𝚝𝚎𝚌𝚝 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙𝚜 & 𝚂𝚞𝚒𝚝 𝙵𝚘𝚛 𝙰𝚕𝚕 𝚈𝚘𝚞𝚛 𝙽𝚎𝚎𝚍𝚜.\n\n😇 𝙾𝚆𝙽𝙴𝚁 :: [𝙸𝙰𝙼 𝙶𝚁𝙾𝙾𝚃 🌱](https://t.me/mynameisgroot)\n😒 𝚂𝚎𝚗𝚍 𝙼𝚎 /help 𝙵𝚘𝚛 𝙶𝚎𝚝 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜.
+\n\n𝙼𝚢 𝙽𝚊𝚖𝚎 𝙸𝚜 𝙱𝙷𝙰𝙽𝚄𝙼𝙰𝚃𝙷𝙸💃 𝙸𝚊𝚖 𝙰𝚍𝚟𝚊𝚗𝚌𝚎𝚍 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖 𝙶𝚛𝚘𝚞𝚙 𝙼𝚊𝚗𝚊𝚐𝚎𝚖𝚎𝚗𝚝 𝙱𝚘𝚝 𝙵𝚘𝚛 𝙷𝚎𝚕𝚙. \n𝚈𝚘𝚞 𝙿𝚛𝚘𝚝𝚎𝚌𝚝 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙𝚜 & 𝚂𝚞𝚒𝚝 𝙵𝚘𝚛 𝙰𝚕𝚕 𝚈𝚘𝚞𝚛 𝙽𝚎𝚎𝚍𝚜.\n\n😇 𝙾𝚆𝙽𝙴𝚁 :: [𝙸𝙰𝙼 𝙶𝚁𝙾𝙾𝚃 🌱](https://t.me/mynameisgroot)\n😒 𝚂𝚎𝚗𝚍 𝙼𝚎 /help 𝙵𝚘𝚛 𝙶𝚎𝚝 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜.
 """,reply_markup=home_keyboard_pm)
         return await add_served_user(chat_id) 
 
@@ -248,8 +248,8 @@ async def startcq(client,CallbackQuery, _):
         served_users.append(int(user["bot_users"]))
     await CallbackQuery.message.edit(
             text=f"""
-Hey there {CallbackQuery.from_user.mention}, 
-My name is Rose an  advanced telegram Group management Bot For helpYou Protect Your Groups & Suit For All Your Needs.feel free to add me to your groups!
+🐷 𝙷𝚎𝚢 𝚃𝚑𝚎𝚛𝚎 {CallbackQuery.from_user.mention}, 
+𝙼𝚢 𝙽𝚊𝚖𝚎 𝙸𝚜 𝙱𝙷𝙰𝙽𝚄𝙼𝙰𝚃𝙷𝙸 💃 , 𝙸𝚊𝚖 𝙰𝚍𝚟𝚊𝚗𝚌𝚎𝚍 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖 𝙶𝚛𝚘𝚞𝚙 𝙼𝚊𝚗𝚊𝚐𝚎𝚖𝚎𝚗𝚝 𝙱𝚘𝚝 𝙵𝚘𝚛 𝙷𝚎𝚕𝚙. \n𝚈𝚘𝚞 𝙿𝚛𝚘𝚝𝚎𝚌𝚝 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙𝚜 & 𝚂𝚞𝚒𝚝 𝙵𝚘𝚛 𝙰𝚕𝚕 𝚈𝚘𝚞𝚛 𝙽𝚎𝚎𝚍𝚜.
 """,disable_web_page_preview=True,reply_markup=home_keyboard_pm)
 
 
