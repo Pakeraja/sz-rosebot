@@ -127,6 +127,8 @@ keyboard = InlineKeyboardMarkup(
     ]
 )
 
+IMG = ["https://te.legra.ph/file/7bd16e246343db1494892.jpg"]
+
 @app.on_message(filters.command(START_COMMAND))
 @language
 async def start(client, message: Message, _):
