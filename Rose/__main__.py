@@ -100,16 +100,16 @@ home_keyboard_pm = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="⚒ Help ", callback_data="bot_commands"
+                text=" 😊 𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴 😊 ", callback_data="bot_commands"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🌐 Website",
+                text="😇 𝚂𝚃𝙸𝙲𝙺𝙴𝚁 𝙿𝙰𝙲𝙺𝚂 😇",
                 url=f"https://szrosebot.ml",
             ),
             InlineKeyboardButton(
-                text="🔰 News Channel",
+                text="🤨 𝙵𝚄𝙽𝙽𝚈 𝙶𝙸𝙵𝚂 🤨",
                 url=f"https://t.me/szroseupdates",
             )
         ],
