@@ -86,30 +86,30 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text=" ♀️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ♀️ ",
+                text=" ♀️𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿♀️ ",
                 url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
             )
         ],
         [
            InlineKeyboardButton(
-                text=" 🧡 𝙻𝙾𝚅𝙴 𝙷𝙴𝙰𝚁𝚃 🧡 ", callback_data="_about"
+                text=" 🧡𝙻𝙾𝚅𝙴 𝙷𝙴𝙰𝚁𝚃🧡 ", callback_data="_about"
             ),
             InlineKeyboardButton(
-                text=" 🇮🇳 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴𝚂 ", callback_data="_langs"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text=" 😊 𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴 😊 ", callback_data="bot_commands"
+                text=" 🇮🇳𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴𝚂 ", callback_data="_langs"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="😇 𝚂𝚃𝙸𝙲𝙺𝙴𝚁 𝙿𝙰𝙲𝙺𝚂 😇",
+                text=" 😊𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴😊 ", callback_data="bot_commands"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="😇𝚂𝚃𝙸𝙲𝙺𝙴𝚁 𝙿𝙰𝙲𝙺𝚂😇",
                 url=f"https://t.me/groot_network",
             ),
             InlineKeyboardButton(
-                text="🤨 𝙵𝚄𝙽𝙽𝚈 𝙶𝙸𝙵𝚂 🤨",
+                text="🤨𝙵𝚄𝙽𝙽𝚈 𝙶𝙸𝙵𝚂🤨",
                 url=f"https://t.me/rjbr0",
             )
         ],
