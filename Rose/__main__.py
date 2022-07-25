@@ -86,16 +86,16 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text=" ➕ Add Me To Your Group ➕ ",
+                text=" ♀️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ♀️ ",
                 url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
             )
         ],
         [
            InlineKeyboardButton(
-                text=" ℹ️ About", callback_data="_about"
+                text=" 🧡 𝙻𝙾𝚅𝙴 𝙷𝙴𝙰𝚁𝚃 🧡 ", callback_data="_about"
             ),
             InlineKeyboardButton(
-                text="🌍 languages ", callback_data="_langs"
+                text=" 🇮🇳 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴𝚂 ", callback_data="_langs"
             ),
         ],
         [
@@ -303,7 +303,7 @@ async def help_button(client, query, _):
                 "Here is the help for", HELPABLE[module].__MODULE__
             )
             + HELPABLE[module].__HELP__
-            + "\n👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @supunma"
+            + "\n😇 𝙾𝚆𝙽𝙴𝚁 : @MyNameIsGROOT"
         )
         if hasattr(HELPABLE[module], "__helpbtns__"):
                        button = (HELPABLE[module].__helpbtns__) + [[InlineKeyboardButton("« Back", callback_data="bot_commands")]]
