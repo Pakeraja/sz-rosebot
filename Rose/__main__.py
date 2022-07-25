@@ -167,7 +167,7 @@ async def start(client, message: Message, _):
     else:
         await message.reply(f"""
 🐷 𝙷𝚎𝚢 𝚃𝚑𝚎𝚛𝚎 {message.from_user.mention}, 
-\n𝙼𝚢 𝙽𝚊𝚖𝚎 𝙸𝚜 𝙱𝙷𝙰𝙽𝚄𝙼𝙰𝚃𝙷𝙸💃 𝙸𝚊𝚖 𝙰𝚍𝚟𝚊𝚗𝚌𝚎𝚍 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖 𝙶𝚛𝚘𝚞𝚙 𝙼𝚊𝚗𝚊𝚐𝚎𝚖𝚎𝚗𝚝 𝙱𝚘𝚝 𝙵𝚘𝚛 𝙷𝚎𝚕𝚙. \n𝚈𝚘𝚞 𝙿𝚛𝚘𝚝𝚎𝚌𝚝 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙𝚜 & 𝚂𝚞𝚒𝚝 𝙵𝚘𝚛 𝙰𝚕𝚕 𝚈𝚘𝚞𝚛 𝙽𝚎𝚎𝚍𝚜.\n\n😇 𝙾𝚆𝙽𝙴𝚁 :: [𝙸𝙰𝙼 𝙶𝚁𝙾𝙾𝚃 🌱](https://t.me/mynameisgroot)\n😒 𝚂𝚎𝚗𝚍 𝙼𝚎 /help 𝙵𝚘𝚛 𝙶𝚎𝚝 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜.
+\n𝙼𝚢 𝙽𝚊𝚖𝚎 𝙸𝚜 𝙱𝙷𝙰𝙽𝚄𝙼𝙰𝚃𝙷𝙸💃 𝙸𝚊𝚖 𝙰𝚍𝚟𝚊𝚗𝚌𝚎𝚍 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖 𝙶𝚛𝚘𝚞𝚙 𝙼𝚊𝚗𝚊𝚐𝚎𝚖𝚎𝚗𝚝 𝙱𝚘𝚝 𝙵𝚘𝚛 𝙷𝚎𝚕𝚙. \n𝚈𝚘𝚞 𝙿𝚛𝚘𝚝𝚎𝚌𝚝 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙𝚜 & 𝚂𝚞𝚒𝚝 𝙵𝚘𝚛 𝙰𝚕𝚕 𝚈𝚘𝚞𝚛 𝙽𝚎𝚎𝚍𝚜."\n\n😇 𝙾𝚆𝙽𝙴𝚁 :: [𝙸𝙰𝙼 𝙶𝚁𝙾𝙾𝚃 🌱](https://t.me/mynameisgroot)"\n😒 𝚂𝚎𝚗𝚍 𝙼𝚎 /help 𝙵𝚘𝚛 𝙶𝚎𝚝 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜.
 """,reply_markup=home_keyboard_pm)
         return await add_served_user(chat_id) 
 
@@ -261,10 +261,9 @@ async def help_parser(name, keyboard=None):
     return (
 """**Welcome to help menu**
 
-I'm a group management bot with some useful features.
-You can choose an option below, by clicking a button.
-If you have any bugs or questions on how to use me, 
-have a look at my [Docs](https://szsupunma.gitbook.io/rose-bot/), or head to @szteambots.
+💃 𝙸𝚊𝚖 𝙰 𝙶𝚛𝚘𝚞𝚙 𝙼𝚊𝚗𝚊𝚐𝚎𝚖𝚎𝚗𝚝 𝙱𝚘𝚝 𝚆𝚒𝚝𝚑 𝚂𝚘𝚖𝚎 𝚄𝚜𝚎𝚏𝚞𝚕 𝙵𝚎𝚊𝚝𝚞𝚛𝚎𝚜.
+🙋🏻‍♂️ 𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚑𝚘𝚘𝚜𝚎 𝚊𝚗 𝙾𝚙𝚝𝚒𝚘𝚗 𝙱𝚎𝚕𝚘𝚠, 𝙱𝚢 𝙲𝚕𝚒𝚌𝚔𝚒𝚗𝚐 𝙰 𝙱𝚞𝚝𝚝𝚘𝚗.
+😇 𝙸𝚏 𝚈𝚘𝚞 𝙷𝚊𝚟𝚎 𝙰𝚗𝚢 𝙱𝚞𝚐𝚜 𝙰𝚜𝚔 𝙷𝚒𝚖\n😇 𝙾𝚆𝙽𝙴𝚁 :: [𝙸𝙰𝙼 𝙶𝚁𝙾𝙾𝚃 🌱](https://t.me/mynameisgroot)
 
 **All commands can be used with the following: / **""",keyboard,)
 
@@ -305,7 +304,7 @@ async def help_button(client, query, _):
                 "Here is the help for", HELPABLE[module].__MODULE__
             )
             + HELPABLE[module].__HELP__
-            + "\n😇 𝙾𝚆𝙽𝙴𝚁 :: [𝙸𝙰𝙼 𝙶𝚁𝙾𝙾𝚃 🌱](https://t.me/mynameisgroot)"
+            + "\n😇 𝙾𝚆𝙽𝙴𝚁 : [𝙸𝙰𝙼 𝙶𝚁𝙾𝙾𝚃 🌱](https://t.me/mynameisgroot)"
         )
         if hasattr(HELPABLE[module], "__helpbtns__"):
                        button = (HELPABLE[module].__helpbtns__) + [[InlineKeyboardButton("« Back", callback_data="bot_commands")]]
