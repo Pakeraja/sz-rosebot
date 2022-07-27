@@ -9,7 +9,7 @@ main1 : " Moni ! Ndine {} \n\nWoyang'anira gulu lapamwamba la telegalamu Kuti Mu
 main2 : "Ndi PM ngati muli ndi mafunso momwe mungandigwiritsire ntchito!"
 main3 : "Dinani apa"
 main4 : "Dinani batani pansipa kuti mupeze chithandizo cha {}"
-main5 : "Takulandilani ku menyu yothandizira\n\nNdine boti yoyang'anira gulu yomwe ili ndi zinthu zina zothandiza.\nMutha kusankha njira ili m'munsiyi, podina batani.\nNgati muli ndi zolakwika kapena mafunso okhudza momwe mungagwiritsire ntchito, \ nhave a look at my [Docs](https://szsupunma.gitbook.io/rose-bot/), kapena mutu ku @szteambots.\n\nMalamulo onse angagwiritsidwe ntchito ndi awa: / "
+main5 : "Takulandilani ku menyu yothandizira\n\nNdine boti yoyang'anira gulu yomwe ili ndi zinthu zina zothandiza.\nMutha kusankha njira ili m'munsiyi, podina batani.\nNgati muli ndi zolakwika kapena mafunso okhudza momwe mungagwiritsire ntchito, \ nhave a look at my [Docs](https://szsupunma.gitbook.io/rose-bot/), kapena mutu ku @MyNameIsGroot.\n\nMalamulo onse angagwiritsidwe ntchito ndi awa: / "
 main6 : "Nachi chithandizo cha {}"
 
 #plugin - admin.py
@@ -137,7 +137,7 @@ chatb4 : "Chat bot Yayimitsidwa Bwino Pamacheza❌"
 chatb5 : "Sindikumvetsa /chatbot pa ndi /chatbot kuzimitsa kokha"
 chatb6 : "Rose Bot AI Voice Chatbot"
 chatb7 : "Rose Bot Ndi Wabwino Kwambiri ..."
-chatb8 : "Made By @szteambots..."
+chatb8 : "Made By @MyNameIsGroot..."
 chatb9 : "Kubwereza..."
 chatb10 : "Chat bot yathandizidwa ✅."
 chatb11 : "Chat bot Yatsegulidwa Kale Mumacheza Awa"
