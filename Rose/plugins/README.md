@@ -8,11 +8,11 @@ from Rose.utils.commands import *
 
 @app.on_message(command("test"))
 async def plug(_, message):
-    szteambots = await message.reply_text(text="Hello I am rose"
+    groot_network = await message.reply_text(text="Hello I am Bhanumathi"
     )
     supun = """
 I'm a group management bot with some useful features.
-@Theszrosebot    
+@Bhanumathibot    
     """
     await szteambots.edit_text(supun)
 
