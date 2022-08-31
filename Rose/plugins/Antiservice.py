@@ -37,7 +37,7 @@ async def anti_service(client, message: Message, _):
 async def delete_service(_, message):
     chat_id = message.chat.id
     try:
-        if await is_antiservice_on(chat_id)
+
      
     except Exception:
         pass
