@@ -37,7 +37,6 @@
         },
         "LOG_GROUP_ID": {
             "description": "For logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
-            "value": "-1001446681008"
             "required": true
         },
         "MONGO_URL": {
