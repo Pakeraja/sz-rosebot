@@ -36,12 +36,7 @@ async def anti_service(client, message: Message, _):
 @app.on_message(filters.service, group=service)
 async def delete_service(_, message):
     chat_id = message.chat.id
-    try:
 
-     
-    except Exception:
-        pass
-    
 
 __MODULE__ = formatting
 __HELP__ = f"""
