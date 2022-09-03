@@ -77,7 +77,7 @@ async def szcbot(_, message: Message):
            trtoen = (message.text if lang=="en" else tr.translate(message.text, dest="en").text).replace(" ", "%20")
            text = trtoen.replace(" ", "%20") if len(message.text) < 2 else trtoen
            safeone = requests.get(f"https://api.safone.tech/chatbot?message={text}&bot_name=Rose&bot_master=Supun&user_id={user_id}")
-           textmsg = (safeone.json()["answer"])
+           textmsg = (safone.json()["answer"])
            if "Affiliate+" in textmsg:
                textmsg = textmsg.replace("Affiliate+", "Bhanumathi")
            if "[Safone]" in textmsg:
