@@ -74,9 +74,9 @@ async def szcbot(_, message: Message):
        affiliateplus = requests.get(f"https://api.affiliateplus.xyz/api/chatbot?message={text}&botname=Rose&ownername=@supunma&user=1")
        textmsg = (affiliateplus.json()["message"])
        if "Affiliate+" in textmsg:
-        textmsg = textmsg.replace("Affiliate+", "Rose bot created by @szteambots")
+        textmsg = textmsg.replace("Affiliate+", "Rose bot created by @MynameIsGroot")
        if "Lebyy_Dev" in textmsg:
-        textmsg = textmsg.replace("Lebyy_Dev", "Supun Maduranga Owner of @szteambots")
+        textmsg = textmsg.replace("Lebyy_Dev", "Supun Maduranga Owner of @MynameIsGroot"")
        if "God Brando" in textmsg:
         textmsg = textmsg.replace("God Brando", f"{message.from_user.first_name}")
        if "seeker" in textmsg:
@@ -92,17 +92,17 @@ __MODULE__ = f"{Chat_Bot}"
 __HELP__ = """
 **Chatbot**
 
-AI based chatbot allows rose to talk and provides a more interactive group chat experience.
+AI based chatbot allows Bhanumathi to talk and provides a more interactive group chat experience.
 
 - /chatbot [ON/OFF]: Enables and disables Affiliate + AI Chat bot.
 
 
 **Available chatbots**
-• Luna - Advanced, inteligent and cute chatbot which will keep you happy all time.. 
+• Bhanumathi - Advanced, inteligent and cute chatbot which will keep you happy all time.. 
 
 
 **Language Support**
-Rose AI chatbot support almost all languages in world .
+Bhanumathi AI chatbot support almost all languages in world .
 Powered By ; `googletrans==3.1.0a0`
 """
 
